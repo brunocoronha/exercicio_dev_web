@@ -59,7 +59,7 @@ public class EnderecoResource implements IResource<Endereco, Integer>{
     }
 
     @PatchMapping(
-        value = "{/id}",
+        value = "/{id}",
         consumes = {MediaType.APPLICATION_JSON_VALUE},
         produces = {MediaType.APPLICATION_JSON_VALUE}
     )
@@ -70,7 +70,7 @@ public class EnderecoResource implements IResource<Endereco, Integer>{
 
 
     @PutMapping(
-        value = "{/id}",
+        value = "/{id}",
         consumes = {MediaType.APPLICATION_JSON_VALUE},
         produces = {MediaType.APPLICATION_JSON_VALUE}
     )

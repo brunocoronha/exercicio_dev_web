@@ -64,7 +64,7 @@ public class PessoaFisicaResource implements IResource<PessoaFisica, Integer> {
     }
 
     @PatchMapping(
-        value = "{/id}",
+        value = "/{id}",
         consumes = {MediaType.APPLICATION_JSON_VALUE},
         produces = {MediaType.APPLICATION_JSON_VALUE}
     )
@@ -74,7 +74,7 @@ public class PessoaFisicaResource implements IResource<PessoaFisica, Integer> {
     }
 
     @PatchMapping(
-        value = "{/id}",
+        value = "/{id}",
         consumes = {MediaType.APPLICATION_JSON_VALUE},
         produces = {MediaType.APPLICATION_JSON_VALUE}
     )

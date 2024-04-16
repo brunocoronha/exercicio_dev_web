@@ -61,7 +61,7 @@ public class EmailResource implements IResource<Email, Integer> {
     }
 
     @PatchMapping(
-        value = "{/id}",
+        value = "/{id}",
         consumes = {MediaType.APPLICATION_JSON_VALUE},
         produces = {MediaType.APPLICATION_JSON_VALUE}
     )
@@ -71,7 +71,7 @@ public class EmailResource implements IResource<Email, Integer> {
     }
 
     @PutMapping(
-        value = "{/id}",
+        value = "/{id}",
         consumes = {MediaType.APPLICATION_JSON_VALUE},
         produces = {MediaType.APPLICATION_JSON_VALUE}
     )
